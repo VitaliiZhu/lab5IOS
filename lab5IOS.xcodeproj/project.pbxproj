@@ -11,6 +11,8 @@
 		231F32282EB495A600A81861 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F32272EB495A600A81861 /* ContentView.swift */; };
 		231F322A2EB495A900A81861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231F32292EB495A900A81861 /* Assets.xcassets */; };
 		231F322D2EB495A900A81861 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231F322C2EB495A900A81861 /* Preview Assets.xcassets */; };
+		231F32342EB4A31800A81861 /* getInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F32332EB4A31800A81861 /* getInfo.swift */; };
+		231F32362EB4A65400A81861 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F32352EB4A65400A81861 /* ObservableObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		231F32272EB495A600A81861 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		231F32292EB495A900A81861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		231F322C2EB495A900A81861 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		231F32332EB4A31800A81861 /* getInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getInfo.swift; sourceTree = "<group>"; };
+		231F32352EB4A65400A81861 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				231F32272EB495A600A81861 /* ContentView.swift */,
 				231F32292EB495A900A81861 /* Assets.xcassets */,
 				231F322B2EB495A900A81861 /* Preview Content */,
+				231F32332EB4A31800A81861 /* getInfo.swift */,
+				231F32352EB4A65400A81861 /* ObservableObject.swift */,
 			);
 			path = lab5IOS;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				231F32282EB495A600A81861 /* ContentView.swift in Sources */,
+				231F32362EB4A65400A81861 /* ObservableObject.swift in Sources */,
 				231F32262EB495A600A81861 /* lab5IOSApp.swift in Sources */,
+				231F32342EB4A31800A81861 /* getInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
