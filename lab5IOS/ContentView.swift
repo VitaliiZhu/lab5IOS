@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
 
     @StateObject private var viewModel = PokemonViewModel()
-        @State private var pokemonName: String = "pikachu" // Приклад початкового значення
+        @State private var pokemonName: String = "pikachu"
     var body: some View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [.indigo , .blue ,  .teal]), startPoint: .top, endPoint: .bottom).ignoresSafeArea()
@@ -35,21 +35,16 @@ struct ContentView: View {
                     
                     Divider()
                     
-                    // Відображення стану
                     if viewModel.isLoading {
-                        // Стан завантаження
                         ProgressView("Loading...")
                             .foregroundColor(.yellow)
                             .font(.system(size: 16, weight: .bold))
                     } else if let errorMessage = viewModel.errorMessage {
-                        // Стан помилки
                         Text("Error: \(errorMessage)")
                             .foregroundColor(.red)
                     } else if let pokemon = viewModel.pokemon {
-                        // Стан успіху: Відображення даних Покемона
                         PokemonDataView(pokemon: pokemon)
                     } else {
-                        // Початковий стан
                         Text("Insert a name and press the load button.")
                             .foregroundColor(.yellow)
                             .font(.system(size: 16, weight: .bold))
