@@ -11,8 +11,14 @@
 		231F32282EB495A600A81861 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F32272EB495A600A81861 /* ContentView.swift */; };
 		231F322A2EB495A900A81861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231F32292EB495A900A81861 /* Assets.xcassets */; };
 		231F322D2EB495A900A81861 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231F322C2EB495A900A81861 /* Preview Assets.xcassets */; };
-		231F32342EB4A31800A81861 /* getInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F32332EB4A31800A81861 /* getInfo.swift */; };
-		231F32362EB4A65400A81861 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231F32352EB4A65400A81861 /* ObservableObject.swift */; };
+		237781582ED9A5A10041C0AE /* PokemonDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237781572ED9A5A10041C0AE /* PokemonDataView.swift */; };
+		2377815A2ED9A5E90041C0AE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237781592ED9A5E90041C0AE /* SettingsView.swift */; };
+		2377815C2ED9A6440041C0AE /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377815B2ED9A6440041C0AE /* PokemonViewModel.swift */; };
+		2377815E2ED9A6A10041C0AE /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377815D2ED9A6A10041C0AE /* Helpers.swift */; };
+		237781602ED9A6DF0041C0AE /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2377815F2ED9A6DF0041C0AE /* Pokemon.swift */; };
+		237781622ED9A70D0041C0AE /* PokemonFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237781612ED9A70D0041C0AE /* PokemonFetcher.swift */; };
+		237781642ED9A74E0041C0AE /* PokemonError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237781632ED9A74E0041C0AE /* PokemonError.swift */; };
+		237781662ED9A78A0041C0AE /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237781652ED9A78A0041C0AE /* DataPersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +27,14 @@
 		231F32272EB495A600A81861 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		231F32292EB495A900A81861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		231F322C2EB495A900A81861 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		231F32332EB4A31800A81861 /* getInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getInfo.swift; sourceTree = "<group>"; };
-		231F32352EB4A65400A81861 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		237781572ED9A5A10041C0AE /* PokemonDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDataView.swift; sourceTree = "<group>"; };
+		237781592ED9A5E90041C0AE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2377815B2ED9A6440041C0AE /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
+		2377815D2ED9A6A10041C0AE /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		2377815F2ED9A6DF0041C0AE /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		237781612ED9A70D0041C0AE /* PokemonFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonFetcher.swift; sourceTree = "<group>"; };
+		237781632ED9A74E0041C0AE /* PokemonError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonError.swift; sourceTree = "<group>"; };
+		237781652ED9A78A0041C0AE /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +69,16 @@
 			children = (
 				231F32252EB495A600A81861 /* lab5IOSApp.swift */,
 				231F32272EB495A600A81861 /* ContentView.swift */,
+				237781592ED9A5E90041C0AE /* SettingsView.swift */,
+				237781572ED9A5A10041C0AE /* PokemonDataView.swift */,
 				231F32292EB495A900A81861 /* Assets.xcassets */,
 				231F322B2EB495A900A81861 /* Preview Content */,
-				231F32332EB4A31800A81861 /* getInfo.swift */,
-				231F32352EB4A65400A81861 /* ObservableObject.swift */,
+				237781652ED9A78A0041C0AE /* DataPersistenceManager.swift */,
+				237781632ED9A74E0041C0AE /* PokemonError.swift */,
+				237781612ED9A70D0041C0AE /* PokemonFetcher.swift */,
+				2377815F2ED9A6DF0041C0AE /* Pokemon.swift */,
+				2377815D2ED9A6A10041C0AE /* Helpers.swift */,
+				2377815B2ED9A6440041C0AE /* PokemonViewModel.swift */,
 			);
 			path = lab5IOS;
 			sourceTree = "<group>";
@@ -144,9 +162,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				231F32282EB495A600A81861 /* ContentView.swift in Sources */,
-				231F32362EB4A65400A81861 /* ObservableObject.swift in Sources */,
+				237781602ED9A6DF0041C0AE /* Pokemon.swift in Sources */,
+				2377815E2ED9A6A10041C0AE /* Helpers.swift in Sources */,
 				231F32262EB495A600A81861 /* lab5IOSApp.swift in Sources */,
-				231F32342EB4A31800A81861 /* getInfo.swift in Sources */,
+				237781642ED9A74E0041C0AE /* PokemonError.swift in Sources */,
+				2377815C2ED9A6440041C0AE /* PokemonViewModel.swift in Sources */,
+				237781622ED9A70D0041C0AE /* PokemonFetcher.swift in Sources */,
+				2377815A2ED9A5E90041C0AE /* SettingsView.swift in Sources */,
+				237781582ED9A5A10041C0AE /* PokemonDataView.swift in Sources */,
+				237781662ED9A78A0041C0AE /* DataPersistenceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
